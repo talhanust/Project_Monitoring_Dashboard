@@ -1,41 +1,31 @@
 # Project Monitoring App
 
-A comprehensive project monitoring application that allows teams to track project progress, manage tasks, monitor deadlines, and visualize project health through dashboards and analytics.
+A comprehensive React-based app for tracking project progress, tasks, deadlines, and analytics. Built with TypeScript, Material-UI, Redux, and Recharts.
 
 ## Features
+- **Dashboard**: Health indicators, progress bars, Gantt charts (placeholders).
+- **Project/Task Management**: CRUD for projects and tasks with mock data.
+- **Notifications**: Basic alert system (expandable to real-time).
+- **Reporting**: Simple exports (PDF/CSV via libraries).
+- Responsive design with dark mode toggle.
 
-- **Dashboard & Analytics**: Project health overview, progress tracking, timeline visualization
-- **Project Management**: Project creation, task management, milestone tracking
-- **Monitoring & Alerts**: Real-time notifications, deadline alerts, budget overrun alerts
-- **Reporting & Analytics**: Executive reports, detailed analytics, custom reports
+## Quick Start
+1. Clone the repo: `git clone https://github.com/yourusername/project-monitoring-app.git`
+2. Install: `npm install`
+3. Run dev server: `npm start`
+4. Build for production: `npm run build`
+5. Deploy: `npm run deploy` (requires `gh-pages` installed globally: `npm i -g gh-pages`)
 
 ## Tech Stack
+- Frontend: React 18+ TS, Redux Toolkit, Material-UI, Recharts
+- See [development guide](docs/development-guide.md) for full specs.
 
-- **Frontend**: React 18 with TypeScript
-- **State Management**: Redux Toolkit
-- **Routing**: React Router v6
-- **UI Framework**: Material-UI
-- **Charts**: Chart.js
-- **HTTP Client**: Axios
+## Deployment
+- Hosted on GitHub Pages: https://yourusername.github.io/project-monitoring-app
+- CI/CD via GitHub Actions (see `.github/workflows/deploy.yml`).
 
-## Getting Started
+## Contributing
+Follow the [phases](docs/development-guide.md) for expansions. Run tests: `npm test`.
 
-1. Clone the repository
-2. Install dependencies: `npm install`
-3. Create a `.env` file based on `.env.example`
-4. Start the development server: `npm run dev`
-
-## Available Scripts
-
-- `npm run dev` - Start development server
-- `npm run build` - Build for production
-- `npm run test` - Run tests
-- `npm run lint` - Run ESLint
-- `npm run format` - Format code with Prettier
-
-## Documentation
-
-See the [docs](./docs) directory for detailed documentation on:
-- API integration
-- Component architecture
-- Deployment guide
+## License
+MIT
